@@ -38,7 +38,7 @@ public class Estudiante {
 
     @Override
     public String toString(){
-        return this.nombre+" "+this.genero+" "+this.nota; 
+        return this.nombre+"   "+this.nota+"   "+this.genero; 
     }
 
 }
