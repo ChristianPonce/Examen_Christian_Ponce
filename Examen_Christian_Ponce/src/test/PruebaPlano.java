@@ -13,7 +13,7 @@ public class PruebaPlano {
     int n=entrada.nextInt();    
     x=(int)(Math.random()*100);
     y=(int)(Math.random()*100);
-    
+   
   //  for(int i=0;i<n;i++){
   //      for(int j=0;j<n;j++){
             System.out.println(x+"\n");

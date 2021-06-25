@@ -11,18 +11,17 @@ public class Plano {
     this.x = x;
     this.y = y;
   }
-  // toString: devuelve una cadena con la representacion del objeto
+  
   public String toString() {
-    // el signo + para cadenas no significa "suma matematica" sino concatenacion
+  
     return "(" + x + ", " + y + ")";
   }
-  // devuelve la distancia al origen
+ 
   public double distanciaAlOrigen() {
-    // NOTA: se podria haber hecho con la distancia a (0,0):
-    // return calcularDistancia(new Punto(0,0));
+
     return Math.sqrt(x * x + y * y);
   }
-  // metodos de acceso
+ 
   public double getX() {
     return x;
   }
